@@ -5,13 +5,12 @@ import Interests from './components/Interests';
 import TechStack from './components/TechStack';
 import MusicPlayer from './components/MusicPlayer';
 import Footer from './components/Footer';
-import photo from './assets/photo.png';
 
 function App() {
   return (
     <div className="min-h-screen text-gray-800 selection:bg-primary/30 relative overflow-hidden">
        <div className="fixed inset-0 z-[-2]">
-          <img src={photo} alt="" className="w-full h-full object-cover filter blur-md scale-110" />
+          <img src="https://cdn.luogu.com.cn/upload/image_hosting/fqist0jx.png" alt="" className="w-full h-full object-cover filter blur-md scale-110" />
        </div>
        <div className="fixed inset-0 z-[-1] bg-white/30"></div>
 

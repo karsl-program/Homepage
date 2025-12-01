@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+  font-family: 'MoonStarsKai';
+  src: url('./assets/MoonStarsKaiTTF/MoonStarsKai-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MoonStarsKai';
+  src: url('./assets/MoonStarsKaiTTF/MoonStarsKai-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@theme {
+  --font-handwriting: "Pacifico", cursive;
+  --font-sans: "MoonStarsKai", "Quicksand", sans-serif;
+  
+  --color-primary: #fbcfe8;
+  --color-primary-dark: #f472b6;
+  --color-secondary: #bae6fd;
+  --color-secondary-dark: #38bdf8;
+  --color-accent: #fde047;
+  --color-background: #fdfbf7;
+  --color-surface: #ffffff;
+}
+
+body {
+  background-color: var(--color-background);
+  font-family: var(--font-sans);
+  color: #4b5563;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-background);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #f9a8d4;
+}
+
+.handwriting {
+  font-family: var(--font-handwriting);
+}

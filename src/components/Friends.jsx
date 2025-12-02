@@ -67,8 +67,8 @@ const Friends = () => {
                     <img src={friend.avatar} alt={friend.name} className="w-full h-full object-cover" />
                   </motion.div>
                   <div className="text-center">
-                    <span className="block text-sm font-bold text-gray-700 group-hover:text-primary transition-colors">{friend.name}</span>
-                    <span className="block text-xs text-gray-400">{friend.bio}</span>
+                    <span className="block text-sm font-bold text-gray-800 group-hover:text-primary transition-colors">{friend.name}</span>
+                    <span className="block text-xs text-gray-500">{friend.bio}</span>
                   </div>
                 </a>
               ))}

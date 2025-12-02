@@ -41,7 +41,7 @@ const Footer = () => {
         
         <Friends />
         
-        <div className="text-center text-gray-400 text-xs font-medium">
+        <div className="text-center text-gray-700 text-xs font-medium">
           &copy; {new Date().getFullYear()} karsl
         </div>
       </div>

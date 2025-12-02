@@ -1,16 +1,13 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState } from 'react';
-import sheep from '../assets/sheep.jpg';
-import xunxun from '../assets/xunxun.png';
-import vegetable from '../assets/vegetable.jpg';
 
 const friendGroups = [
   {
     id: 'net',
     label: 'Network Friends',
     list: [
-      { name: "cleversheep2011", avatar: sheep, bio: "OIer and math dalao", link: "https://shearbyte.dev/" },
-      { name: "小寻寻", avatar: xunxun, bio: "来自广东的猫娘", link: "https://www.misaka23323.com" },
+      { name: "cleversheep2011", avatar: "https://cdn.luogu.com.cn/upload/usericon/1264654.png", bio: "OIer and math dalao", link: "https://shearbyte.dev/" },
+      { name: "小寻寻", avatar: "https://q1.qlogo.cn/g?b=qq&nk=760966144&s=100", bio: "来自广东的猫娘", link: "https://www.misaka23323.com" },
     ]
   },
   {
@@ -18,7 +15,7 @@ const friendGroups = [
     label: 'Schoolmates',
     list: [
       { name: "harlan", avatar: "https://eb118-file.cdn.bcebos.com/upload/7c8d29777635476a96d004d56072541c_1078272698.png", bio: "OIer and math dalao", link: "https://harlan1015.github.io/" },
-      { name: "蔬菜vegetables_awa", avatar: vegetable, bio: "OIer and Minecraft player", link: "https://space.bilibili.com/3546745413831251"}
+      { name: "蔬菜vegetables_awa", avatar: "https://cdn.luogu.com.cn/upload/usericon/1219481.png", bio: "OIer and Minecraft player", link: "https://space.bilibili.com/3546745413831251"}
     ]
   }
 ];

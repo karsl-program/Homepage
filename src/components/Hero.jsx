@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import tx from '../assets/tx.jpeg'
 
 const Hero = () => {
   return (
@@ -22,7 +21,7 @@ const Hero = () => {
         className="relative z-10"
       >
         <div className="w-48 h-48 md:w-64 md:h-64 rounded-full border-[6px] border-white shadow-2xl overflow-hidden hover:scale-105 transition-transform duration-300">
-            <img src={tx} alt="karsl avatar" className="w-full h-full object-cover" />
+            <img src="https://q1.qlogo.cn/g?b=qq&nk=2264284870&s=640" alt="karsl avatar" className="w-full h-full object-cover" />
         </div>
       </motion.div>
 
